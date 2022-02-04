@@ -1,0 +1,113 @@
+<html>
+<head>
+    <!--this line makes a link to the html file and css file, like phone and pouch. -->
+    <link rel="stylesheet" href="myfirst.css">
+
+</head>
+
+<body >
+<center>
+    <img src="anu.jpg" alt="university name" height="200" width="200">
+    <h1>Application Form</h1>
+    <table border="0">
+        <tr>
+            <td>first name</td>
+            <td> : </td>
+            <td><input type="text" name="First Name" id="myHeader" placeholder="enter a your first name" maxlength="50" ></td>
+        </tr>
+
+        <tr>
+            <td>
+              <label class="some"> last name </label>
+            </td>
+            <td> : </td>
+            <td>
+                <input type="text" name="Last Name" id="myHeader" placeholder="enter your last name" maxlength="50">
+            </td><br>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="sex"> SEX </label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="sex" checked="checked">Male<br>
+                <input type="radio" name="sex" class="some  p1" > Female <br>
+                 <!--        in the above line some and p1 are the classes in css file.-->
+                <input type="radio" name="sex" >others<br>
+            </td> <br>
+        </tr>
+
+       <tr>
+            <td>Cast</td>
+            <td> : </td>
+            <td>
+            <select >
+                     <option >Choose Cast</option>
+                     <option >OC</option>
+                     <option >BC</option>
+                     <option >SC</option>
+                     <option >ST</option>
+               </select>
+                </td>
+       </tr>
+
+        <tr>
+            <td>photo </td>
+            <td>:</td>
+            <td>
+                <input type="file" name="file" accept="image/gif">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+               <label for="courses">courses</label>
+            </td>
+            <td> : </td>
+            <td>
+                 <input type="checkbox">BCA
+                 <input type="checkbox">BSC
+                 <input type="checkbox">BCOM
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="address">address</label></td>
+            <td> : </td>
+          <td> <textarea rows="10" cols="30">
+           </textarea></td>
+        </tr>
+
+        <tr>
+            <td>password </td>
+            <td>: </td>
+            <td>
+                <input type="password" name="password : "  placeholder="enter your password" maxlength="50"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td> confirm password </td>
+            <td> : </td>
+            <td>
+            <input type="password" name="password "  placeholder="confirm password" maxlength="50"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+              <input type="submit" name="button" value="submit">
+            </td>
+            <td></td>
+            <td>
+              <input type="button" name="button" value="cancel">
+            </td>
+        </tr>
+
+    </table>
+</center>
+
+</body>
+</html>

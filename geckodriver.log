@@ -1,0 +1,32 @@
+1639637061295	geckodriver	INFO	Listening on 127.0.0.1:50783
+1639637064371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50784" "-no-remote" "-profile" "C:\\Users\\sRIKANTH\\AppData\\Local\\Temp\\rust_mozprofile9SukPv"
+1639637064770	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sRIKANTH\\AppData\\Local\\Temp\\rust_mozprofile9SukPv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50784/devtools/browser/4d15c08c-81c2-49c9-967c-3e0467007e82
+1639637067637	Marionette	INFO	Listening on port 50789
+1639637068056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/y4/l/en_GB/o5XjgaLVgY-.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1639637075261	Marionette	INFO	Stopped listening on port 50789
+1639659191531	geckodriver	INFO	Listening on 127.0.0.1:51700
+1639659194606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51701" "-no-remote" "-profile" "C:\\Users\\sRIKANTH\\AppData\\Local\\Temp\\rust_mozprofileXy0aw4"
+1639659195334	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sRIKANTH\\AppData\\Local\\Temp\\rust_mozprofileXy0aw4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51701/devtools/browser/976e3e17-e41b-4ce7-b54b-ab5fd2f31bd9
+1639659198474	Marionette	INFO	Listening on port 51706
+1639659198831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.facebook.com/rsrc.php/v3iX3c4/y4/l/en_GB/o5XjgaLVgY-.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1639659204310	Marionette	INFO	Stopped listening on port 51706
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640667589531	geckodriver	INFO	Listening on 127.0.0.1:49611
+1640667592593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49612" "-no-remote" "-profile" "C:\\Users\\sRIKANTH\\AppData\\Local\\Temp\\rust_mozprofile1F0pW4"
+1640667593462	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sRIKANTH\\AppData\\Local\\Temp\\rust_mozprofile1F0pW4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49612/devtools/browser/1d1693c2-7d07-4e4f-8675-4ee8f11a8692
+1640667596594	Marionette	INFO	Listening on port 49617
+1640667596843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/y4/l/en_GB/o5XjgaLVgY-.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640667604278	Marionette	INFO	Stopped listening on port 49617
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
