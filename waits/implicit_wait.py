@@ -1,5 +1,6 @@
 """
    write a  programme on implicit wait.
+   in this we can give loading web application time.
 """
 
 import time
